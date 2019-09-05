@@ -1,0 +1,9 @@
+go to cmd, type cd then paste the scripts address below and hit enter
+
+C:\Program Files (x86)\Python37-32\Scripts
+
+now copy paste the command below (modify the .ui & .py file names and paths as needed first)
+
+pyuic5 -x "F:\00085-PROGRAMMING & CODING PROJECTS\Python Programming\190422_python tutorial - programming with Mosh\PROMFI 2\Promfi_2.0_UI.ui" -o "F:\00085-PROGRAMMING & CODING PROJECTS\Python Programming\190422_python tutorial - programming with Mosh\PROMFI 2\Promfi_2.0_UI.py"
+
+pyinstaller -w -F Promfi_2.0_UI.py
